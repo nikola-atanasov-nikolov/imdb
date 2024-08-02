@@ -4,7 +4,6 @@ import time
 from datetime import datetime
 import os
 
-# Replace 'your_api_key' with your actual TMDb API key
 api_key = 'fb2e3a8285e168cda3a42b70434becfc'
 base_url = 'https://api.themoviedb.org/3'
 discover_url = f'{base_url}/discover/movie'
@@ -12,7 +11,7 @@ discover_url = f'{base_url}/discover/movie'
 now = datetime.now()
 current_date = now.strftime("%Y-%m-%d")
 
-# Define the file name
+# Define the log file name
 filename = 'dates.csv'
 
 # Check if the file exists and if it is empty
